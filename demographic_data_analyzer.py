@@ -1,4 +1,8 @@
+# import libraries
+import numpy as np
 import pandas as pd
+
+# Dataframe
 df=pd.DataFrame({
     'age': [39,50,38,53,28],
     'workclass': ['State-gov','Self-emp-not-inc','Private','Private','Private'],
